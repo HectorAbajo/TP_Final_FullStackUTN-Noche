@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerNav{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navLogin{
+    text-decoration: none;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.btnLogout{
+    border-radius: 2cap;
+    border-color: rgb(7, 7, 7);
+    background-color: rgb(167, 167, 167);
+    width: 98%;
+}
+
+.btnMain{
+    width: 98%;
+    border: 0;
+    background-color: rgb(161, 123, 123);
+}
+
+.btnMain i{
+    color: rgb(5, 40, 155);
+} 
+
+.navBar{
+    width: 98%;
+    align-self: self-start;
+    background: rgb(213, 239, 252);
+    margin-left: 1%;
+}
+
+.liNav{
+    font-family: 'Nova Square', sans-serif;
+    list-style: none;
+}
+
+.liNav a{
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+
+.classHidden {
+    display: none;
+}
+
+@media (min-width: 500px){
+
+    .containerNav{
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .btnMain{
+        display: none;
+    }
+
+    .navLogin {
+        border-radius: 2cap;
+        background-color: rgb(167, 167, 167);
+        width: 20%;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Nova Square', sans-serif;
+    }
+
+    .btnLogout{
+        border-radius: 2cap;
+        border-color: rgb(7, 7, 7);
+        background-color: rgb(167, 167, 167);
+        width: 20%;
+    }
+
+    .navBar{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .liNav{
+        padding: 1%;
+        font-family: 'Nova Square', sans-serif;
+        list-style: none;
+        width: 20%;
+    }
+}
+
+@media (min-width: 700px){
+
+    .navBar{
+        justify-content: space-around;
+        background-color: black;
+    }
+
+    .liNav a{
+        color: rgb(255, 168, 168);
+        font-size: x-large;
+    }
+
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+.footer{
+    width: 100%;
+    height: 15%;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer ul li{
+    font-family: 'Bebas Neue', sans-serif;
+    list-style: none;
+}
+
+@media (min-width: 400px){
+    .footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer ul li{
+        font-family: 'Rowdies', sans-serif;
+        padding: 2%;
+        list-style: none;
+    }
+}

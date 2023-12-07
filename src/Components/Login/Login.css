@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerInput{
+    margin: 1%;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.labelFormLogin{
+    font-family: 'Nova Square', sans-serif;
+    color: rgb(64, 199, 199);
+    padding: 2%;
+}
+
+.containerInputSubmit{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+#inputSubmitRegister{
+    width: 30%;
+    color: rgb(45, 45, 153);
+    font-family: 'Young Serif', serif;
+}
+
+.containerNavRegister {
+    margin: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+.containerNavRegister a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Young Serif', serif;
+}
+
+@media (min-width: 500px){
+
+    .containerInput{
+        margin: 0;
+        padding: 0.5%;
+    }
+
+    #inputSubmitRegister{
+        width: 20%;
+    }
+}
+
+@media (min-width: 900px){
+
+    #inputSubmitRegister{
+        width: 15%;
+    }
+}

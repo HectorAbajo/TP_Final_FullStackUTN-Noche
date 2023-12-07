@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Pacifico&family=Young+Serif&display=swap');
+
+.contenedorFormulario {
+    padding: 15%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedorFormulario form{
+    width: 100%;
+}
+
+.contenedorInput{
+    padding: 10%;
+}
+
+.contenedorCheck{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.hidden{
+    display: none;
+}
+
+.containerFile{
+    overflow: scroll;
+}
+
+.containerFile input{
+    padding: 2%;
+    
+}
+
+#textContact{
+    width: 100%;
+    padding: 1%;
+}
+
+.btnSubmit{
+    border-radius: 1cap;
+    width: 100%;
+}
+
+.linkHome a{
+    font-family: 'Pacifico', cursive;
+    font-size:larger;
+    text-decoration: none;
+}
+
+
+@media (min-width:500px){
+
+    .contenedorFormulario form{
+        width: 80%;
+    }
+
+    .contenedorInput{
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width:800px){
+
+    .contenedorFormulario{
+        padding-top: 5%;
+    }
+
+    .contenedorFormulario form{
+        width: 100%;
+    }
+
+}

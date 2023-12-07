@@ -1,0 +1,126 @@
+#body{
+	display: flex;
+	font-family: Arial;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+table{
+	color: antiquewhite;
+}
+
+#divTabla{
+	overflow: scroll;
+	padding: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	
+}
+
+#contenedorBarraBusqueda{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
+
+#divLabelNombre{
+	margin: 1vw;
+}
+
+#divLabelEmail{
+	margin: 1vw;
+}
+
+#divLabelTelefono{
+	margin: 1vw;
+}
+
+#divLupa{
+	margin: 1vw;
+}
+
+.identificador{
+	display: none;
+}
+
+.Encabezado{
+	background-color: #101116;
+	color: rgb(163, 27, 61);
+	box-sizing: border-box;
+	text-align: justify;
+	width: 100px;
+	border-bottom: solid #e70b0b 5px;
+	padding: 5px;
+}
+
+.ColorSeleccion{
+	color: rgb(124, 8, 233);
+}
+
+.columnaListado{
+	box-sizing: border-box;
+	text-align: justify;
+	width: 100px;
+	padding: 5px;
+}
+
+.filaListado{
+	background-color: #5e72d6;
+}
+
+tr:nth-child(even){
+	background-color: #001a52;
+}
+
+tr:hover {
+	background-color: #369681;
+	color: rgb(62, 10, 158);
+	cursor: pointer;
+}
+
+.contenedorBtn{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btnCrearUsuario{
+	width: 70%;
+}
+
+#btnModificar{
+	background-color: #001a52;
+}
+
+#btnEliminar{
+	background-color: #b80808;
+}
+
+.refHome a{
+	text-decoration: none;
+    font-size: x-large;
+    font-family: 'Caveat', cursive;
+}
+
+@media (min-width:600px){
+
+
+	#divTabla table{
+		width: 98%;
+	}
+
+	.contenedorBtn{
+		padding: 2%;
+	}
+
+	.btnCrearUsuario{
+		width: 100%;
+	}
+
+}

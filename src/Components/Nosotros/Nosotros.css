@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&display=swap');
+.contenedorNostros{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1%;
+}
+
+.articuloNosotros{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.imgNosotros{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    
+}
+
+.contenedorNostros a{
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Caveat', cursive;
+}
+
+@media (min-width: 400px){
+    .imgNosotros{
+        width: 50%; 
+    }
+}
+
+@media (min-width: 650px){
+
+    .contenedorNostros section{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .imgNosotros{
+        width: 300px; 
+        height: 350px;
+    }
+}
